@@ -26,21 +26,22 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 
 ## Un cop hàgiu acabat, prepareu una presentació per a explicar el següent:
 
-    Una introducció als llenguatges de marques: orígens, per a què es fan servir, etc.
+[^1]:    Una introducció als llenguatges de marques: orígens, per a què es fan servir, etc.
+---
+[^2]:    Una introducció al vostre llenguatge de marques, explicació de les regles que heu definit.
+---
+[^3]:    Classificar el vostre llenguatge de programació (procedimental i presentació; descriptiu o semàntic) i justificar aquesta classificació.
+---
+[^4]:    Explicar un cas d’ús en el qual es podria fer servir el vostre llenguatge de marques.
+---
+[^5]:    Mostrar un exemple de com es fa servir el vostre llenguatge i explicar-lo.
+---
+[^6]:    Explicar un cas d’ús en el qual el vostre llenguatge de marques no seria el més adient.
+---
+[^7]:    Justificar per què el vostre llenguatge es pot classificar com "de marques".
+---
 
-    Una introducció al vostre llenguatge de marques, explicació de les regles que heu definit.
-
-    Classificar el vostre llenguatge de programació (procedimental i presentació; descriptiu o semàntic) i justificar aquesta classificació.
-
-    Explicar un cas d’ús en el qual es podria fer servir el vostre llenguatge de marques.
-
-    Mostrar un exemple de com es fa servir el vostre llenguatge i explicar-lo.
-
-    Explicar un cas d’ús en el qual el vostre llenguatge de marques no seria el més adient.
-
-    Justificar per què el vostre llenguatge es pot classificar com "de marques".
-
-Rúbrica d’avaluació
+# Rúbrica d’avaluació
 
 Atenció: l’incompliment de les instruccions de lliurament impliquen la NO correcció de la pràctica i una nota de 0 punts. Cal seguir totes les instruccions estrictament al peu de la lletra.
 
