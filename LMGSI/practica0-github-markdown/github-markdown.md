@@ -14,9 +14,9 @@
 
 L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb les característiques inherents als llenguatges de marques mitjançant la creació d’un llenguatge propi, heu de tenir en compte que, per a poder classificar la vostra creació com a llenguatge de marques, s’han de complir una sèrie de requisits:
 
-> * El llenguatge s’ha de basar en text pla.
+> * El llenguatge s’ha de basar en **text pla**.
 >
-> * Ha de fer ús de metadades (no confondre amb metallenguatge).
+> * Ha de fer ús de **metadades** (no confondre amb metallenguatge).
 >
 > * N’ha de facilitar el procés automàtic de les dades per part d’un programa informàtic.
 >
@@ -36,7 +36,7 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 
 6. Explicar un cas d’ús en el qual el vostre llenguatge de marques no seria el més adient.
 
-7- Justificar per què el vostre llenguatge es pot classificar com "de marques".
+7. Justificar per què el vostre llenguatge es pot classificar com "de marques".
 
 
 # Rúbrica d’avaluació
