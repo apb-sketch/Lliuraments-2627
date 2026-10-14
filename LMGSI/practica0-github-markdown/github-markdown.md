@@ -1,4 +1,4 @@
-#Pràctica 1: Característiques dels llenguatges de marques
+# Pràctica 1: Característiques dels llenguatges de marques
 ##Descripció
 
 
@@ -21,7 +21,7 @@ L’objectiu d’aquest exercici és aprofundir en els conceptes relacionats amb
 
         N’ha de facilitar la representació (o la interpretació) de les dades emmagatzemades.
 
-##Un cop hàgiu acabat, prepareu una presentació per a explicar el següent:
+## Un cop hàgiu acabat, prepareu una presentació per a explicar el següent:
 
     Una introducció als llenguatges de marques: orígens, per a què es fan servir, etc.
 
