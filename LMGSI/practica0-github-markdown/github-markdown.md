@@ -2,7 +2,7 @@
 ## Descripció
 
 > [!NOTE]
-> Objectiu: Aprofundir i posar en pràctica els coneixements adquirits sobre l'ús i les característiques principals dels llenguatges de marques.
+> Objectiu: Aprofundir i posar en pràctica els **coneixements** adquirits sobre l'ús i les característiques principals dels llenguatges de marques.
 
 > [!IMPORTANT]
 > Desenvolupament: En parelles.
