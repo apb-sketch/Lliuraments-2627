@@ -7,7 +7,7 @@ char	Un sol caràcter
 boolean / bool	verdader o fals
 int / integer	Nombre enter
 ```
-Aquí estan els tipus de relació que poden tenir les taules entre eelles podem tenir les següents possibilitats depenen del tipus de comportament que poden tenir entre elles com per exemple `||--|| : acció o fet` com per exemple un personatge pot acompanyar una mascota_
+Aquí estan els tipus de relació que poden tenir les taules entre eelles podem tenir les següents possibilitats depenen del tipus de comportament que poden tenir entre elles com per exemple `||--|| : acció o fet` com per exemple un personatge pot acompanyar una mascota.
 
 >   |o : Un o zero
 >
@@ -19,7 +19,7 @@ Aquí estan els tipus de relació que poden tenir les taules entre eelles podem 
 >
 >    o| : Zero o un
 
-També per resoldre els dubtes o problemes que vaig tenir fent el diagrama vaig utilitzar la documentació oficial de **[mermaid](https://mermaid_ai/open-source/syntax/entityRelationshipDiagram_html)**_
+També per resoldre els dubtes o problemes que vaig tenir fent el diagrama vaig utilitzar la documentació oficial de **[mermaid](https://mermaid_ai/open-source/syntax/entityRelationshipDiagram.html)**.
 
 ```mermaid
 ---
@@ -28,7 +28,7 @@ config:
     layout: dagre
 ---
 erDiagram
-PERSONATGE ||--||MASCOTA : ACOMPANYA
+PERSONATGE |o--o{MASCOTA : ACOMPANYA
 PERSONATGE }o--o{ HABILITAT: POSEEIX
 PERSONATGE }o--o{ ITEM: EQUIPA
 PERSONATGE }o--o{ ENEMIC: ENFRENTA
