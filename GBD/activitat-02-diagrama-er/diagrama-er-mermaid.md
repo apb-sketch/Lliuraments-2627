@@ -2,7 +2,13 @@
 
 ```mermaid
 erDiagram
-PERSONATGE ||-||MASCOTA : ACOMPANYA
+PERSONATGE ||--||MASCOTA : ACOMPANYA
+PERSONATGE }o--o{ HABILITAT: POSEEIX
+PERSONATGE }o--o{ ITEM: EQUIPA
+PERSONATGE }o--o{ ENEMIC: ENFRENTA
+ENEMIC }o--o{ HABILITAT: POSEEIX
+HABILITAT }o--o{ HABILITAT: COMBINA
+MASCOTA ||--o| ITEM: CARREGA
         HABILITAT {
                 int CODI PK
                 string NOM "NOT NULL"
@@ -44,5 +50,4 @@ PERSONATGE ||-||MASCOTA : ACOMPANYA
                 int AGILITAT
                 int CARISMA
         }
-
 ``` 
