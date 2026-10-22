@@ -1,4 +1,4 @@
-## Explicacio
+## Explicació
 Per fer el diagrama mermaid primer fem les taules posen el nombre de la taula i omplin els seus valors dintre de `{ }` podem definir valors posen el seu nom amb el seu tipus com els següents:
 
 ```
