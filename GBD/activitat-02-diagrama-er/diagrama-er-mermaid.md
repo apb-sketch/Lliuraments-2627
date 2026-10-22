@@ -10,7 +10,6 @@ modelConceptual
                 int DANY
                 int COOLDOWN
         }
-
      PRSONATGE {
                 int DNI PK
                 string NOM "NOT NULL"
