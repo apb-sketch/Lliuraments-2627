@@ -2,7 +2,7 @@
 
 ```mermaid
 erDiagram
-PERSONATGE || - ||MASCOTA
+PERSONATGE || - ||MASCOTA : ACOMPANYA
         HABILITAT {
                 int CODI PK
                 string NOM "NOT NULL"
