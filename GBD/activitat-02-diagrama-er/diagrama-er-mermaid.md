@@ -1,5 +1,7 @@
+
+
 ```mermaid
-erDiagram
+modelConceptual
         HABILITAT {
                 int CODI PK
                 string NOM "NOT NULL"
@@ -7,5 +9,15 @@ erDiagram
                 int COST
                 int DANY
                 int COOLDOWN
+        }
+
+     PRSONATGE {
+                int DNI PK
+                string NOM "NOT NULL"
+                string COGNOM
+                int FORÇA
+                int VIDA
+                int AGILITAT
+                int CARISMA
         }
 ``` 
