@@ -1,7 +1,7 @@
 
 
 ```mermaid
-modelConceptual
+erDiagram
         HABILITAT {
                 int CODI PK
                 string NOM "NOT NULL"
