@@ -7,7 +7,7 @@ char	Un sol caràcter
 boolean / bool	verdader o fals
 int / integer	Nombre enter
 ```
-Aquí estan els tipus de relació que poden tenir les taules entre eelles podem tenir les següents possibilitats depenen del tipus de comportament que poden tenir entre elles com per exemple `||--|| : acció o fet` com per exemple un personatge pot acompanyar una mascota.
+Aquí estan els tipus de relació que poden tenir les taules entre eelles podem tenir les següents possibilitats depenen del tipus de comportament que poden tenir entre elles com per exemple `||--|| : acció o fet` com per exemple un personatge pot acompanyar una mascota_
 
 >   |o : Un o zero
 >
@@ -19,7 +19,7 @@ Aquí estan els tipus de relació que poden tenir les taules entre eelles podem 
 >
 >    o| : Zero o un
 
-També per resoldre els dubtes o problemes que vaig tenir fent el diagrama vaig utilitzar la documentació oficial de **[mermaid](https://mermaid.ai/open-source/syntax/entityRelationshipDiagram.html)**.
+També per resoldre els dubtes o problemes que vaig tenir fent el diagrama vaig utilitzar la documentació oficial de **[mermaid](https://mermaid_ai/open-source/syntax/entityRelationshipDiagram_html)**_
 
 ```mermaid
 ---
@@ -44,7 +44,7 @@ MASCOTA ||--o{ ITEM: CARREGA
                 int COOLDOWN
         }
      PERSONATGE {
-                int DNI PK
+                STRING DNI PK
                 string NOM "NOT NULL"
                 string COGNOM
                 int FORÇA
@@ -60,12 +60,12 @@ MASCOTA ||--o{ ITEM: CARREGA
                 string tipus "NOT NULL"
                 int PES "NOT NULL"
                 int QUALITAT "NOT NULL"
-                float MESURES.X "NOT NULL"
-                float MESURES.Y "NOT NULL"
-                float MESURES.Z "NOT NULL"
+                float MESURES_X "NOT NULL"
+                float MESURES_Y "NOT NULL"
+                float MESURES_Z "NOT NULL"
         }
    MASCOTA {
-                int NUM.CHIP PK
+                int NUM_CHIP PK
                 string NOM "NOT NULL"
                 string MOTXILLA
         }
