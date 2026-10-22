@@ -19,4 +19,13 @@ erDiagram
                 int AGILITAT
                 int CARISMA
         }
+     ITEM {
+                int CODI PK
+                string NOM "NOT NULL"
+                bool EQUIPABLE
+                bool COMERCIABLE "NOT NULL"
+                string tipus "NOT NULL"
+                int PES "NOT NULL"
+                int QUALITAT "NOT NULL"
+        }
 ``` 
