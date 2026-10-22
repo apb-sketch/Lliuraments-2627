@@ -28,4 +28,20 @@ erDiagram
                 int PES "NOT NULL"
                 int QUALITAT "NOT NULL"
         }
+   MASCOTA {
+                int NUM.CHIP PK
+                string NOM "NOT NULL"
+                string MOTXILLA
+        }
+  ENEMIC {
+                int CODI PK
+                string NOM "NOT NULL"
+                string TIPUS "NOT NULL"
+                int NIVELL "NOT NULL"
+                int VIDA
+                int FORÇA
+                int AGILITAT
+                int CARISMA
+        }
+
 ``` 
