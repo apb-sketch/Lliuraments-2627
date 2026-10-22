@@ -11,7 +11,7 @@ PERSONATGE || - ||MASCOTA : ACOMPANYA
                 int DANY
                 int COOLDOWN
         }
-     PRSONATGE {
+     PERSONATGE {
                 int DNI PK
                 string NOM "NOT NULL"
                 string COGNOM
