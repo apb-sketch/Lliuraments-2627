@@ -21,6 +21,32 @@ Aquí estan els tipus de relació que poden tenir les taules entre eelles podem 
 
 També per resoldre els dubtes o problemes que vaig tenir fent el diagrama vaig utilitzar la documentació oficial de **[mermaid](https://mermaid_ai/open-source/syntax/entityRelationshipDiagram.html)**.
 
+
+Primer comencem amb la definició del diagrama obrim un bloc de codi amb:
+
+\`\`\`mermaid
+
+\`\`\`
+
+I posem dintre erDiagram per indicar que el bloc mermaid és un diagrama.
+
+Una vegada definit podem començar a posar taules, posant primer el nom de la taula i després els atributs dintre de { }, cada atribut es guarda primer posant el tipus de dades i després el nom de l'atribut i el comentari al final, per atributs que són la clau primària es posa pk i els que no són null es posa "not null" 
+
+
+```mermaid
+erDiagram
+        HABILITAT {
+                int CODI PK
+                string NOM "NOT NULL"
+                string tipus "NOT NULL"
+                int COST
+                int DANY
+                int COOLDOWN
+        }
+```
+
+Una vegada tenim les taules podem configurar-les creen les relacions entre elles, per fer una relació podem posar el nom de la primera taula el tipus de relació que té amb l'altre i després posar -- i la relació que té la següent amb la primera.
+
 ```mermaid
 ---
 title: Model Conceptual
